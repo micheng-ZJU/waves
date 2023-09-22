@@ -1,0 +1,14 @@
+<aiml version="1.0" encoding="UTF-8">
+	<category>
+		<pattern>LOAD AIML SEALS APAC</pattern>
+		<template>
+			<learn>./core/resources/basic.aiml</learn>
+			<learn>./core/resources/Complain.aiml</learn>
+            <learn>./core/resources/learn.aiml</learn>
+			<learn>./core/resources/main.aiml</learn>
+			<learn>./core/resources/save.aiml</learn>
+			<learn>./core/resources/sealsAPAC.aiml</learn>
+			<learn>./core/resources/Study.aiml</learn>
+		</template>
+	</category>
+</aiml>

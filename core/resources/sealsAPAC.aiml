@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <!-- INTRODUCE TEAM SCENARIO -->
+    <category>
+        <pattern>SEALAPACTEAM</pattern>
+        <template>
+            The SEALs APAC team is highly skilled,with expertise encompassing RDA,Alteryx,Python, Macro, and AI. They
+            have even created me. While I may not be exceptionally intelligent at the moment, given some time, i will
+            continue to improve and become even better.
+        </template>
+    </category>
+    <category>
+        <pattern>* INTRODUCE * TEAM *</pattern>
+        <template>
+            <srai>SEALAPACTEAM</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INTRODUCE * TEAM</pattern>
+        <template>
+            <srai>SEALAPACTEAM</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INTRODUCE * TEAM *</pattern>
+        <template>
+            <srai>SEALAPACTEAM</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INTRODUCE * TEAM</pattern>
+        <template>
+            <srai>SEALAPACTEAM</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SEALSAPAC开发团队</pattern>
+        <template>
+            SEALS APAC是个很厉害的团队，知识栈包括了RdA，Alteryx，Python，Macro以及AI，并且创造了我，我现在还不那么聪明，但是给我一些时间，我会越来越棒的
+        </template>
+    </category>
+    <category>
+        <pattern>*介绍*开发团队*</pattern>
+        <template>
+            <srai>SEALSAPAC开发团队</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>介绍*开发团队*</pattern>
+        <template>
+            <srai>SEALSAPAC开发团队</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*介绍*开发团队</pattern>
+        <template>
+            <srai>SEALSAPAC开发团队</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>介绍*开发团队</pattern>
+        <template>
+            <srai>SEALSAPAC开发团队</srai>
+        </template>
+    </category>
+
+    <!-- INTRODUCE EXIST SOLUTIONS -->
+    <category>
+        <pattern>SEALS解决方案</pattern>
+        <template>
+            目前SEALS APAC开发了很多的解决方案，主要的技术栈包括下面几种工具 _newline
+            imageUrls _newline
+            url /images/UiPath.jpg /url _newline
+            url /images/python.jpg /url _newline
+            url /images/Alteryx.jpg /url _newline
+            /imageUrls _newline
+        </template>
+    </category>
+    <category>
+        <pattern>*介绍*解决方案*</pattern>
+        <template>
+            <srai>SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>介绍*解决方案*</pattern>
+        <template>
+            <srai>SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*介绍*解决方案</pattern>
+        <template>
+            <srai>SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>介绍*解决方案</pattern>
+        <template>
+            <srai>SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*列出解决方案*</pattern>
+        <template>
+            <srai>SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>列出*解决方案*</pattern>
+        <template>
+            <srai>SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*列出*解决方案</pattern>
+        <template>
+            <srai>SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>列出*解决方案</pattern>
+        <template>
+            <srai>SEALS解决方案</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SEALSSOLUTIONS</pattern>
+        <template>
+            At present, SEALS APAC has developed a plethora of solutions, with the primary technological stack
+            comprising the following tools. _newline
+            imageUrls _newline
+            url /images/UiPath.jpg /url _newline
+            url /images/python.jpg /url _newline
+            url /images/Alteryx.jpg /url _newline
+            /imageUrls _newline
+        </template>
+    </category>
+    <category>
+        <pattern>* INTRODUCE * SOLUTIONS *</pattern>
+        <template>
+            <srai>SEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INTRODUCE * SOLUTIONS *</pattern>
+        <template>
+            <srai>SEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INTRODUCE * SOLUTIONS</pattern>
+        <template>
+            <srai>SEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INTRODUCE * SOLUTIONS</pattern>
+        <template>
+            <srai>SEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LIST * SOLUTIONS *</pattern>
+        <template>
+            <srai>SEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LIST * SOLUTIONS *</pattern>
+        <template>
+            <srai>SEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* LIST * SOLUTIONS</pattern>
+        <template>
+            <srai>SEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>LIST * SOLUTIONS</pattern>
+        <template>
+            <srai>SEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RDA</pattern>
+        <template>
+            Feed Asset Set Up Form Information From SharePoint to WSO _newline
+            FED Cash Mark Email Notification _newline
+            Client KPI Automation _newline
+            (More contact RDA COE Team)
+        </template>
+    </category>
+    <category>
+        <pattern>PYTHON</pattern>
+        <template>
+            Weekly Unpriced Stale Report _newline
+            Failed Trade Report _newline
+            CA Calculation Template _newline
+            (More contact Python COE Team)
+        </template>
+    </category>
+    <category>
+        <pattern>ALTERYX</pattern>
+        <template>
+            JPB Monthly SD Holding Report _newline
+            FRS Currency Breakdown-FSDF _newline
+            Customized Reporting-JPGC - Nippon Life Dividend Received Report _newline
+            (More contact Alteryx COE Team)
+        </template>
+    </category>
+
+    <!-- EXECUTE SOLUTIONS -->
+    <category>
+        <pattern>RUNSEALSSOLUTIONS</pattern>
+        <template>
+            Please Perform Detailed Configuration On The Left-Hand Side Of The Page
+        </template>
+    </category>
+    <category>
+        <pattern>* TRY * SOLUTIONS</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* TRY * SOLUTIONS *</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TRY * SOLUTIONS</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TRY * SOLUTIONS *</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RUN * SOLUTIONS</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RUN * SOLUTIONS *</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RUN * SOLUTIONS</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RUN * SOLUTIONS *</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EXECUTE * SOLUTIONS</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EXECUTE * SOLUTIONS *</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EXECUTE * SOLUTIONS</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EXECUTE * SOLUTIONS *</pattern>
+        <template>
+            <srai>RUNSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>执行SEALS解决方案</pattern>
+        <template>
+            详细的配置请在左侧页面操作
+        </template>
+    </category>
+    <category>
+        <pattern>*尝试*解决方案</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*尝试*解决方案*</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>尝试*解决方案</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>尝试*解决方案*</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*运行*解决方案</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*运行*解决方案*</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>运行*解决方案</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>运行*解决方案*</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*执行*解决方案</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*执行*解决方案*</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>执行*解决方案</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>执行*解决方案*</pattern>
+        <template>
+            <srai>执行SEALS解决方案</srai>
+        </template>
+    </category>
+
+    <!-- EXECUTE WORKFLOW -->
+    <category>
+        <pattern>RUNSEALSWORKFLOW</pattern>
+        <template>
+            Based on the information provided by the user, in addition to generating a default workflow, the system can
+            automatically select corresponding tools and solutions for integration into the workflow based on the
+            described content.
+            Please Perform Workflow Detailed Configuration On The Left-Hand Side Of The Page
+        </template>
+    </category>
+    <category>
+        <pattern>* INITIAL * WORKFLOW</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* INITIAL * WORKFLOW *</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INITIAL * WORKFLOW</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>INITIAL * WORKFLOW *</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GENERATE * WORKFLOW</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* GENERATE * WORKFLOW *</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GENERATE * WORKFLOW</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>GENERATE * WORKFLOW *</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RUN * WORKFLOW</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* RUN * WORKFLOW *</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RUN * WORKFLOW</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>RUN * WORKFLOW *</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EXECUTE * WORKFLOW</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* EXECUTE * WORKFLOW *</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EXECUTE * WORKFLOW</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>EXECUTE * WORKFLOW *</pattern>
+        <template>
+            <srai>RUNSEALSWORKFLOW</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>执行SEALS工作流</pattern>
+        <template>
+            根据用户提供的信息，除了生成默认的工作流还可以根据描述的内容自动选择对应的工具和解决方案到工作流当中，详细的工作流配置请在左侧页面操作
+        </template>
+    </category>
+    <category>
+        <pattern>*配置*工作流</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*配置*工作流 *</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>配置*工作流</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>配置*工作流*</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*尝试*工作流</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*尝试*工作流 *</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>尝试*工作流</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>尝试*工作流*</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*运行*工作流</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*运行*工作流 *</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>运行*工作流</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>运行*工作流*</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*执行*工作流</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*执行*工作流 *</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>执行*工作流</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>执行*工作流*</pattern>
+        <template>
+            <srai>执行SEALS工作流</srai>
+        </template>
+    </category>
+
+    <!-- MAPPING SOLUTIONS -->
+    <category>
+        <pattern>MAPPINGSEALSSOLUTIONS</pattern>
+        <template>
+            Based on the information provided by the user, solutions that best match the user's needs are derived using
+            a designated algorithm and AI.
+            These solutions are then displayed in descending order of relevance.
+            Please Continue To View And Operate On The Left Page To Find The Matching Solutions According To The
+            Requirements.
+        </template>
+    </category>
+    <category>
+        <pattern>* FIND * SOLUTIONS *</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FIND * SOLUTIONS *</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* FIND * SOLUTIONS</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FIND *SOLUTIONS</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUGGEST * SOLUTIONS *</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUGGEST SOLUTIONS *</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUGGEST * SOLUTIONS *</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUGGEST SOLUTIONS *</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SUGGEST * SOLUTIONS</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SUGGEST * SOLUTIONS</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SOLUTIONS * REQUIREMENTS *</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SOLUTIONS * REQUIREMENTS *</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>* SOLUTIONS * REQUIREMENTS</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SOLUTIONS * REQUIREMENTS</pattern>
+        <template>
+            <srai>MAPPINGSEALSSOLUTIONS</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>推荐合适的解决方案</pattern>
+        <template>
+            根据用户提供的信息，根据设定的算法以及AI得出最匹配用户需求的几个解决方案，并根据匹配度从高到低进行展示，请在左侧页面继续查看以及操作
+        </template>
+    </category>
+    <category>
+        <pattern>*查找*解决方案*</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>查找*解决方案*</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*查找*解决方案</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>查找*解决方案</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*建议*解决方案*</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>建议*解决方案*</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*建议*解决方案</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>建议*解决方案</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*解决方案*需求*</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>解决方案*需求*</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>*解决方案*需求</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>解决方案*需求</pattern>
+        <template>
+            <srai>推荐合适的解决方案</srai>
+        </template>
+    </category>
+</aiml>

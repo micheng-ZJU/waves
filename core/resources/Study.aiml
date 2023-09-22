@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>T</pattern>
+        <template>
+            <think>
+                <system>
+                    String learn(String question,String answer)
+                    {
+                    return question+":"+answer;
+                    }
+                </system>
+            </think>
+            您已经进入机器人训练模式，请输入问题和答案，格式如下：Q问题A答案。例如：Q你好吗？A我很好。或者你可以在问题中加入"*"符号，比如：Q你*好a谢谢，
+            当你输入你真好或你很好时，机器人都会回答谢谢。
+        </template>
+    </category>
+
+    <category>
+        <pattern>TE</pattern>
+        <template>
+            <think>
+                <system>
+                    String learn(String question,String answer)
+                    {
+                    return question+":"+answer;
+                    }
+                </system>
+            </think>
+            You are now in robot training mode. Please input questions and answers in the following format:
+            Q[question]A[answer]. For example: QHow are you?AI'm fine. Or you can add the "" symbol in the question,
+            like: QYougoodAThank you. This means when you input 'You are good' or 'You really good', the robot will
+            reply with 'Thank you'.。
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>*我教你*</pattern>
+        <template>
+            <srai>T</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ME * TOLD *</pattern>
+        <template>
+            <srai>TE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ME TOLD *</pattern>
+        <template>
+            <srai>TE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>Q*A*</pattern>
+        <template>
+            我学到咯！下次再来和我聊天我会变的不一样哦！
+            <gossip>
+                <system>learn("<star index="1"/>","<star index="2"/>")
+                </system>
+            </gossip>
+        </template>
+    </category>
+</aiml>
